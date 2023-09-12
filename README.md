@@ -3,7 +3,8 @@
 A collection of activities made for Event-Driven Programming subject.
 
 ## Table of Contents
-- Prelim (soon)
+- [Prelim](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Prelim)
+  - [AccountRegistration (Lab Exer 1)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Prelim/AccountRegistration)
 - Midterm (soon)
 - Pre-Finals (soon)
 - Finals (soon)
