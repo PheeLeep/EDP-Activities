@@ -1,7 +1,5 @@
-﻿namespace QueuingCashier
-{
-    partial class QueuingForm
-    {
+﻿namespace QueuingCashier {
+    partial class QueuingForm {
         /// <summary>
         ///  Required designer variable.
         /// </summary>
@@ -11,10 +9,8 @@
         ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -26,8 +22,7 @@
         ///  Required method for Designer support - do not modify
         ///  the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             splitContainer1 = new SplitContainer();
             QueueLabel = new Label();
             label1 = new Label();
@@ -42,7 +37,9 @@
             // splitContainer1
             // 
             splitContainer1.Dock = DockStyle.Fill;
+            splitContainer1.IsSplitterFixed = true;
             splitContainer1.Location = new Point(0, 0);
+            splitContainer1.Margin = new Padding(3, 4, 3, 4);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -54,17 +51,18 @@
             // 
             splitContainer1.Panel2.Controls.Add(label3);
             splitContainer1.Panel2.Controls.Add(CashierButton);
-            splitContainer1.Size = new Size(505, 205);
-            splitContainer1.SplitterDistance = 338;
+            splitContainer1.Size = new Size(577, 273);
+            splitContainer1.SplitterDistance = 386;
+            splitContainer1.SplitterWidth = 5;
             splitContainer1.TabIndex = 0;
             // 
             // QueueLabel
             // 
             QueueLabel.Dock = DockStyle.Fill;
             QueueLabel.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
-            QueueLabel.Location = new Point(0, 40);
+            QueueLabel.Location = new Point(0, 53);
             QueueLabel.Name = "QueueLabel";
-            QueueLabel.Size = new Size(338, 165);
+            QueueLabel.Size = new Size(386, 220);
             QueueLabel.TabIndex = 1;
             QueueLabel.Text = "---";
             QueueLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -75,7 +73,7 @@
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(338, 40);
+            label1.Size = new Size(386, 53);
             label1.TabIndex = 0;
             label1.Text = "Position in Queue:";
             label1.TextAlign = ContentAlignment.MiddleLeft;
@@ -84,18 +82,19 @@
             // 
             label3.AutoSize = true;
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(16, 149);
+            label3.Location = new Point(18, 199);
             label3.Name = "label3";
-            label3.Size = new Size(129, 15);
+            label3.Size = new Size(161, 20);
             label3.TabIndex = 1;
             label3.Text = "* Click to get a number";
             // 
             // CashierButton
             // 
             CashierButton.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            CashierButton.Location = new Point(15, 17);
+            CashierButton.Location = new Point(17, 23);
+            CashierButton.Margin = new Padding(3, 4, 3, 4);
             CashierButton.Name = "CashierButton";
-            CashierButton.Size = new Size(136, 124);
+            CashierButton.Size = new Size(155, 165);
             CashierButton.TabIndex = 0;
             CashierButton.Text = "Cashier";
             CashierButton.UseVisualStyleBackColor = true;
@@ -103,12 +102,13 @@
             // 
             // QueuingForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(505, 205);
+            ClientSize = new Size(577, 273);
             Controls.Add(splitContainer1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "QueuingForm";
             StartPosition = FormStartPosition.CenterScreen;
