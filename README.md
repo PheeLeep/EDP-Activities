@@ -10,6 +10,7 @@ A collection of activities made for Event-Driven Programming subject.
   - [QueuingCashierTP (Task Performance)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Prelim/QueuingCashierTP)
 - [Midterm](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm)
   - [OrganizationProfile (Lab Exer 1)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/OrganizationProfile)
+  - [ThreadsForm (Lab Exer 2)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/ThreadsForm)
 - Pre-Finals (soon)
 - Finals (soon)
 
