@@ -12,6 +12,7 @@ A collection of activities made for Event-Driven Programming subject.
   - [OrganizationProfile (Lab Exer 1)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/OrganizationProfile)
   - [ThreadsForm (Lab Exer 2)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/ThreadsForm)
   - [CustomExceptionFrm (Lab Exer 3)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/CustomExceptionFrm)
+  - [TrackThread (Task Performance)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/TrackThread)
 - Pre-Finals (soon)
 - Finals (soon)
 
