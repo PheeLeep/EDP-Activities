@@ -13,7 +13,10 @@ A collection of activities made for Event-Driven Programming subject.
   - [ThreadsForm (Lab Exer 2)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/ThreadsForm)
   - [CustomExceptionFrm (Lab Exer 3)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/CustomExceptionFrm)
   - [TrackThread (Task Performance)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Midterm/TrackThread)
-- Pre-Finals (soon)
+- [Pre-Finals](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Prefinals)
+  - [TextFileLabExer (Lab Exer 1)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Prefinals/TextFileLabExer)
+  - [ReadTextLabExer (Lab Exer 2)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Prefinals/ReadTextLabExer)
+  - [BasicCalculator (Task Performance)](https://github.com/PheeLeep/EDP-Activities/tree/main/Activities/Prefinals/BasicCalculator)
 - Finals (soon)
 
 ## License
